@@ -1,5 +1,7 @@
-div {
-    color: white;
+.body{
     text-align: center;
-    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: white, solid, 5px;
+    border-radius: 15px;
 }
