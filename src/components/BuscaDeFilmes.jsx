@@ -8,7 +8,7 @@ function BuscaDeFilmes() {
 
   const buscarFilmes = async () => {
     try {
-      const response = await fetch(`http://www.omdbapi.com/?s=${query}&apikey=f3dbf6d0`);
+      const response = await fetch(`http://www.omdbapi.com/?s=${query}&apikey=9d52abf4`);
       const data = await response.json();
       if (data.Response === 'True') {
         setFilmes(data.Search);
